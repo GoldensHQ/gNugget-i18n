@@ -2883,6 +2883,412 @@ GoldenNugget будет перезапущен, чтобы применить и
         <source>Shows a system notification whenever an app reads the pasteboard, acting as a privacy indicator for system-level pastes.</source>
         <translation>Показывает системное уведомление всякий раз, когда приложение читает буфер обмена, как индикатор приватности для системных вставок.</translation>
     </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="69"/>
+        <source>All</source>
+        <translation>Все</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="70"/>
+        <source>Info</source>
+        <translation>Инфо</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="71"/>
+        <source>Warning</source>
+        <translation>Предупреждение</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="72"/>
+        <source>Error</source>
+        <translation>Ошибка</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="140"/>
+        <source>Application Log</source>
+        <translation>Лог приложения</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="168"/>
+        <source>Search log...</source>
+        <translation>Поиск по логу…</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="183"/>
+        <source>Keep scrolling to the newest lines as they are written</source>
+        <translation>Прокручивать к новым строкам по мере их записи</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="188"/>
+        <source>Live</source>
+        <translation>Онлайн</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="198"/>
+        <source>No log output yet.</source>
+        <translation>В логе пока ничего нет.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="211"/>
+        <source>Reload</source>
+        <translation>Обновить</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="212"/>
+        <source>Re-read the log from the beginning</source>
+        <translation>Перечитать лог с начала</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="216"/>
+        <source>Open File</source>
+        <translation>Открыть файл</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="217"/>
+        <source>Open the log in your default text editor</source>
+        <translation>Открыть лог в текстовом редакторе</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="221"/>
+        <source>Open Folder</source>
+        <translation>Открыть папку</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="222"/>
+        <source>Open the folder holding the log</source>
+        <translation>Открыть папку с логом</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="226"/>
+        <source>Copy Visible</source>
+        <translation>Копировать видимое</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="227"/>
+        <source>Copy the lines currently shown to the clipboard</source>
+        <translation>Копировать показанные строки в буфер обмена</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="233"/>
+        <source>Close</source>
+        <translation>Закрыть</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="339"/>
+        <source>{0} of {1} lines  -  {2} KB on disk</source>
+        <translation>Строк: {0} из {1}  -  {2} КБ на диске</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="343"/>
+        <source>Empty log  -  {0} KB on disk</source>
+        <translation>Лог пуст  -  {0} КБ на диске</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="367"/>
+        <source>Copied {0} lines to the clipboard</source>
+        <translation>Скопировано строк в буфер обмена: {0}</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/log_viewer.py" line="374"/>
+        <source>Log file not found yet.</source>
+        <translation>Файл лога пока не найден.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="88"/>
+        <source>Apps on iPhone</source>
+        <translation>Приложения на iPhone</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="99"/>
+        <source>Loading installed apps...</source>
+        <translation>Загрузка установленных приложений…</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="104"/>
+        <source>Filter by name or bundle id...</source>
+        <translation>Фильтр по имени или bundle id…</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="117"/>
+        <source>Export JSON...</source>
+        <translation>Экспорт JSON…</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="122"/>
+        <source>Add Icon for Selected</source>
+        <translation>Добавить иконку для выбранного</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="142"/>
+        <source>No iPhone connected. Connect and unlock the device, then try again.</source>
+        <translation>iPhone не подключён. Подключите и разблокируйте устройство, затем повторите.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="153"/>
+        <source>{0} apps installed on the iPhone.</source>
+        <translation>Приложений установлено на iPhone: {0}.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="162"/>
+        <source>Could not read the app list.
+
+{0}</source>
+        <translation>Не удалось прочитать список приложений.
+
+{0}</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="202"/>
+        <source>Export App List</source>
+        <translation>Экспорт списка приложений</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="220"/>
+        <source>Could not write the file:
+{0}</source>
+        <translation>Не удалось записать файл:
+{0}</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/app_list_dialog.py" line="222"/>
+        <source>Exported {0} apps to:
+{1}</source>
+        <translation>Экспортировано приложений: {0}
+{1}</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="95"/>
+        <source>Parsing theme…</source>
+        <translation>Разбор темы…</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="102"/>
+        <source>Staged {0} key files, {1} targets</source>
+        <translation>Подготовлено файлов клавиш: {0}, целей: {1}</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="108"/>
+        <source>Step 1/3 — Trust check: opening a device session. If this computer isn't trusted yet, unlock your iPhone and tap “Trust This Computer” now.</source>
+        <translation>Шаг 1/3 — проверка доверия: открывается сессия с устройством. Если этот компьютер ещё не доверенный, разблокируйте iPhone и нажмите «Доверять этому компьютеру».</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="117"/>
+        <source>the iPhone did not confirm this computer as trusted — tap “Trust This Computer” on the device and try again</source>
+        <translation>iPhone не подтвердил доверие этому компьютеру — нажмите «Доверять этому компьютеру» на устройстве и повторите</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="121"/>
+        <source>Step 2/3 — Device trust confirmed; staging the theme…</source>
+        <translation>Шаг 2/3 — доверие подтверждено; тема подготавливается…</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="126"/>
+        <source>Writing {0} files to {1}…</source>
+        <translation>Запись файлов: {0} в {1}…</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="131"/>
+        <source>Step 3/3 — Done.</source>
+        <translation>Шаг 3/3 — готово.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="135"/>
+        <source>The device is locked. Unlock your iPhone, then tap “Trust This Computer” when the dialog appears and try again.</source>
+        <translation>Устройство заблокировано. Разблокируйте iPhone, затем нажмите «Доверять этому компьютеру», когда появится диалог, и повторите.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="140"/>
+        <source>You declined the trust request on the device. Connect your iPhone, tap “Trust This Computer” and try again.</source>
+        <translation>Запрос на доверие отклонён на устройстве. Подключите iPhone, нажмите «Доверять этому компьютеру» и повторите.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="145"/>
+        <source>The device did not confirm this computer as trusted — the Apple® sync service (ATC) refuses an untrusted host and the write would fail. Unlock your iPhone and tap “Trust This Computer”, then try again.</source>
+        <translation>Устройство не подтвердило доверие этому компьютеру — служба синхронизации Apple® (ATC) отклоняет недоверенный компьютер, и запись не удастся. Разблокируйте iPhone, нажмите «Доверять этому компьютеру» и повторите.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="154"/>
+        <source>Wrote {0} file(s) to the device.</source>
+        <translation>Записано файлов на устройство: {0}.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="158"/>
+        <source>{0} file(s) skipped — they already exist (AirLift only writes new names). Remove the old keypad cache first to replace an existing theme.</source>
+        <translation>Пропущено файлов: {0} — они уже существуют (AirLift создаёт только новые имена). Удалите старый кеш клавиатуры, чтобы заменить существующую тему.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="199"/>
+        <source>Customize the Passcode keypad with a theme package (.passthm) — images, sub-labels and bold keys. Themes are written straight to the device over USB/Wi-Fi (no reboot).
+
+AirLift only creates NEW files on the device: re-applying the same theme is a no-op, and replacing an existing theme with different art requires removing the old keypad cache first.</source>
+        <translation>Настройте экран ввода кода с помощью пакета темы (.passthm) — изображения, подписи и жирные клавиши. Темы записываются напрямую на устройство по USB/Wi-Fi (без перезагрузки).
+
+AirLift создаёт на устройстве только НОВЫЕ файлы: повторное применение той же темы ничего не делает, а для замены существующей темы на другую сначала нужно удалить старый кеш клавиатуры.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="210"/>
+        <source>Theme</source>
+        <translation>Тема</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="212"/>
+        <source>No theme selected yet.</source>
+        <translation>Тема ещё не выбрана.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="221"/>
+        <source>Choose .passthm…</source>
+        <translation>Выбрать .passthm…</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="235"/>
+        <source>Keypad Language</source>
+        <translation>Язык клавиатуры</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="239"/>
+        <source>Bold Keys</source>
+        <translation>Жирные клавиши</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="244"/>
+        <source>Target TelephonyUI</source>
+        <translation>Цель — TelephonyUI</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="250"/>
+        <source>Write to device</source>
+        <translation>Записать на устройство</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="256"/>
+        <source>Write Theme to Device</source>
+        <translation>Записать тему на устройство</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="283"/>
+        <source>Device Language</source>
+        <translation>Язык устройства</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="284"/>
+        <source>All Languages</source>
+        <translation>Все языки</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="302"/>
+        <source>Both (Regular + Bold)</source>
+        <translation>Оба (обычные + жирные)</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="303"/>
+        <source>Regular only</source>
+        <translation>Только обычные</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="304"/>
+        <source>Bold only</source>
+        <translation>Только жирные</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="313"/>
+        <source>All (8, 9, 10)</source>
+        <translation>Все (8, 9, 10)</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="352"/>
+        <source>Choose a Passcode Theme</source>
+        <translation>Выберите тему экрана ввода кода</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="352"/>
+        <source>passthemes (*.passthm)</source>
+        <translation>темы (*.passthm)</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="358"/>
+        <source>Invalid Theme</source>
+        <translation>Недопустимая тема</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="402"/>
+        <source>, small keys</source>
+        <translation>, малые клавиши</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="404"/>
+        <source>, big keys</source>
+        <translation>, большие клавиши</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="405"/>
+        <source>{0} key images{1}</source>
+        <translation>Изображений клавиш: {0}{1}</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="410"/>
+        <source>Remove</source>
+        <translation>Удалить</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="438"/>
+        <source>No trusted iPhone connected. Plug it in, unlock it, tap “Trust This Computer” when iOS asks, and wait for it to appear here.</source>
+        <translation>Нет доверенного iPhone. Подключите его, разблокируйте, нажмите «Доверять этому компьютеру» по запросу iOS и дождитесь появления здесь.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="447"/>
+        <source>Device: {0} — iOS {1} ({2}). This computer is trusted by it, so the write runs immediately — no “Trust This Computer” pop-up will appear.</source>
+        <translation>Устройство: {0} — iOS {1} ({2}). Этот компьютер ему доверен, поэтому запись выполняется сразу — окно «Доверять этому компьютеру» не появится.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="451"/>
+        <source>iPhone</source>
+        <translation>iPhone</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="454"/>
+        <source>Device present, but it is not supported for AirLift (needs an iPhone on iOS 26.2+).</source>
+        <translation>Устройство подключено, но не поддерживается для AirLift (нужен iPhone на iOS 26.2+).</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="463"/>
+        <source>Choose a theme first.</source>
+        <translation>Сначала выберите тему.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="468"/>
+        <source>No trusted iPhone is listed. Plug it in, unlock it, tap “Trust This Computer” when iOS asks, then wait for it to appear.</source>
+        <translation>Доверенный iPhone не найден. Подключите его, разблокируйте, нажмите «Доверять этому компьютеру» по запросу iOS и дождитесь появления.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="475"/>
+        <source>This device is not supported for AirLift (needs an iPhone on iOS 26.2+).</source>
+        <translation>Это устройство не поддерживается для AirLift (нужен iPhone на iOS 26.2+).</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="481"/>
+        <source>A write is already running.</source>
+        <translation>Запись уже выполняется.</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="486"/>
+        <source>Starting…</source>
+        <translation>Запуск…</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="518"/>
+        <source>Passcode Theme</source>
+        <translation>Тема экранного ввода</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/passcode_theme.py" line="519"/>
+        <source>Apply failed:
+
+{0}</source>
+        <translation>Не удалось применить:
+
+{0}</translation>
+    </message>
 </context>
 <context>
     <name>PBHelpDialog</name>
