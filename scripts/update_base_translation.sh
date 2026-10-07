@@ -40,7 +40,14 @@ PATTERNS=(
   src/gui/pages/tools/*.py
   src/gui/dialogs/*.py
   src/gui/ios/*.py
-  src/qt/mainwindow.ui
+  # NOTE: src/qt/mainwindow.ui was removed here. The Classic UI source was
+  # deleted from GoldenNugget (see AGENTS.md, "TEMP: Classic UI removed"), so
+  # the pattern matched nothing. src/qt/mainwindow_ui.py cannot replace it:
+  # pyside6-uic emits u"..." literals and lupdate silently skips those
+  # (stripping the prefix recovers the strings, keeping it yields zero), and it
+  # only carries a subset of what the .ui held anyway. Re-add the pattern when
+  # Classic comes back, or the Classic-UI strings already in these catalogs
+  # stay unreachable.
   src/devicemanagement/device_manager.py
   src/exceptions/*.py
   src/tweaks/*.py
